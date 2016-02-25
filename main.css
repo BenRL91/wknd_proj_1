@@ -4,31 +4,95 @@ body {
 /*Top of page*/
 .orange_banner {
 	color: white;
-	font-size: 17px;
-	background-color: darkorange;
+	font-size: 16px;
+	font-weight: lighter;
+	background-color: #e87450;
 	padding: 7px;
 	padding-left: 100px;
 }
 
 /*Buttons for top of page*/
 button {
-	background-color: orange;
+	background-color: #e87450;
 	margin-left: 6px;
 	border: none;
 }
 
+.free {
+	background-color: #b95c3e;
+	font-size: 12px;
+	padding: 5px;
+	padding-right: 7px;
+	padding-left: 7px;
+	border-radius: 3px;
+	margin-right: 12px;
+}
+
 /*Skinny Ties Image division*/
 .skinny {
-	background-color: black;
-	color: red;
+	/*background-color: black;*/
+	color: darkgray;
+	position: relative;
+	overflow: hidden;
 }
 
+/*Skinny Ties Image proper*/
+.skinny img{
+	height: 135px;
+	float: left;
+}
+
+.skinny span {
+	color: #454545;
+	font-size: 25px;
+	font-weight: lighter;
+	line-height: 135px;
+	margin-right: 20px;
+}
+
+/*Cart box*/
+.cart {
+	margin-left: 300px;
+}
+
+/*Search box*/
 .search {
 	float: right;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
+.search input {
+	position: absolute;
+	top: 50px;
+	right: 180px;
+	font-size: 13px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	border: 5px solid lightgray;
+	border-radius: 4px;
+}
+
+}
 /*Sign in and register */
 .sign_in {
-	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
+#sign {
+	color: gray;
+	font-size: 11px;
+	position: absolute;
+	top: -50px;
+	right: 225px;
+}
+
+#reg {
+	color: gray;
+	font-size: 11px;
+	position: absolute;
+	top: -50px;
+	right: 150px;
+}
