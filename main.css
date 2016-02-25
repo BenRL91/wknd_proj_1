@@ -1,0 +1,18 @@
+body {
+	font-family: 'Signika Negative', sans-serif;
+}
+/*Top of page*/
+.orange_banner {
+	color: white;
+	font-size: 17px;
+	background-color: darkorange;
+	padding: 7px;
+	padding-left: 100px;
+}
+
+/*Buttons for top of page*/
+button {
+	background-color: orange;
+	margin-left: 6px;
+	border: none;
+}
