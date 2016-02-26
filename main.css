@@ -1,65 +1,112 @@
 * {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
+
 body {
+	background-color: blue;
 	position: relative;
 	overflow: hidden;
 	margin: 0;
 }
+
 /*container for 1st section. The orange bar section*/
 div.block1 {
 	overflow: hidden;
 }
+
 /*container for the words*/
 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none
 }
+
 /*the words*/
 .orange_words li {
 	float: left;
 }
+
 div.skinny_ties_logo {
 	float: left;
 	display: inline-block;
 }
+
 div.skinny_ties_logo img {
 	float: left;
 }
+
 ul.categories {
 	float: left;
 }
+
 ul.categories li {
 	float: left;
 }
-
 
 div.signreg {
 	position: absolute;
 	top: 0;
 	right: 0;
 	overflow: hidden;
-	/*width: 700px;*/
-	/*float: right;*/
-	/*display: inline-block;*/
 }
+
 ul.srcontent {
 	float: right;
 }
+
 ul.srcontent li {
 	float: right;
 }
+
 div.cartsearchcontainer {
 	float: right;
 }
+
 div.cartsearch {
 	float: right;
 	display: inline-block;
 }
+
 div.cartsearch span input {
 	float: right;
 }
+
 div.cart {
 	display: inline-block;
+}
+
+/*<perforated border*/
+div.perf_container {
+	border: none;
+	float: left;
+}
+
+img.perf {
+	border: none;
+	height: 5px;
+	float: left;
+}
+
+/*gray_box division*/
+div.gray_box {
+	float: left;
+	background-color: #f4f4f4;
+}
+
+/*Tie Label Container*/
+/*ul.tie_labels {
+	overflow: hidden;
+	float: left;
+}
+
+ul.tie_labels li {
+	float: left;*/
+}
+
+div.start_dress {
+	float: left;
+}
+
+div.startdress span {
+	float: left;
 }
