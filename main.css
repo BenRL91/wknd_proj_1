@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: blue;
+	/*background-color: blue;*/
 	position: relative;
 	overflow: scroll;
 	margin: 0;
@@ -71,13 +71,29 @@ div.cartsearch {
 	float: right;
 	display: inline-block;
 }
+div.mag {
+	float: left;
+	background: url('assets/sprite@2x.png') no-repeat -15px -15px;
+	background-size: 400px 200px;
+	width: 13px;
+	height: 13px;
+}
 
 div.cartsearch span input {
 	float: right;
 }
 
+
 div.cart {
-	display: inline-block;
+	float: left;
+	/*display: inline-block;*/
+}
+div.cartsprite {
+	float: left;
+	background: url('assets/sprite@2x.png') no-repeat -45px -16px;
+	background-size: 400px 200px;
+	width: 14px;
+	height: 12px;
 }
 
 /*<perforated border*/
@@ -168,4 +184,8 @@ div.contact {
 
 div.contact button {
 	float: right;
+}
+
+p.copywrite {
+	clear: left;
 }
