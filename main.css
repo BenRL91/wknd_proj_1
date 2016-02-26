@@ -5,7 +5,7 @@
 body {
 	background-color: blue;
 	position: relative;
-	overflow: hidden;
+	overflow: scroll;
 	margin: 0;
 }
 
@@ -40,6 +40,11 @@ ul.categories {
 }
 
 ul.categories li {
+	float: left;
+}
+
+/*bowtie section labels*/
+div.bowtie_section_labels {
 	float: left;
 }
 
@@ -94,13 +99,6 @@ div.gray_box {
 }
 
 /*Tie Label Container*/
-/*ul.tie_labels {
-	overflow: hidden;
-	float: left;
-}
-
-ul.tie_labels li {
-	float: left;*/
 }
 
 div.start_dress {
@@ -109,4 +107,65 @@ div.start_dress {
 
 div.startdress span {
 	float: left;
+}
+
+
+/*Bowtie  level images*/
+#bowtiesimg {
+	margin-left: 100px;
+}
+
+div.bowtie_section img {
+	margin: 12px;
+	height: 200px;
+	float: left;
+}
+p {
+	float: left;
+}
+div.xborder {
+	/*float: left;*/
+	clear: left;
+}
+div.xborder {
+	height: 7px;
+	background-image: url(assets/hatch-light@2x.png);
+	background-repeat: repeat-x;
+	background-size: 7px;
+}
+
+/*weekly pick section*/
+li.wkpk_items {
+	float: left;
+}
+
+li.wkpk_items span {
+	float: left;
+	clear: left;
+}
+
+}
+li .style {
+	clear: left;
+}
+
+img.guy {
+	float: right;
+}
+
+div.gray_box2 {
+	background-color: #f4f4f4;
+	float: left;
+}
+
+ul.shopby {
+	float: left;
+}
+
+div.contact {
+	float: right;
+}
+
+div.contact button {
+	float: right;
 }
