@@ -129,8 +129,9 @@ button {
 }
 /*Pictues of only ties*/
 .tie_box {
-	background-color: #f4f4f4;
-	height: 190px;
+	/*background-color: #f4f4f4;*/
+	background-color: blue;
+	height: 170px;
 	margin: 0px;
 	width: 1366px;
 	/*margin-left: 15px;*/
@@ -163,14 +164,36 @@ button {
 	height: 200px;
 	overflow: hidden;
 	float: left;
-	vertical-align: 30px;
 }
 .tie_labels span {
 	margin: 0 29px;
+	float: left;
 }
 
 /*label for the black tie*/
 
 #black_label {
-	margin-left: 275px;
+	margin-left: 220px;
 }
+
+/*Start dressing better text*/
+.start_box {
+	float:right;
+	margin-right: 400px
+}
+span.startdb {
+	font-size: 50px;
+}
+* {
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+/*Working on getting all of the words beneath the ties set correctly
+trying something new with the spans in the HTML (May not work) 
+and trying to get the large words oriented correctly as well*/
