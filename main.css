@@ -35,6 +35,7 @@ button {
 	color: darkgray;
 	position: relative;
 	overflow: hidden;
+	height: 143px;
 	/*margin-left: 120px;*/
 }
 
@@ -83,7 +84,7 @@ button {
 	position: absolute;
 	top: 50px;
 	right: 120px;
-	font-size: 13px;
+	font-size: 14px;
 	padding-top: 3px;
 	padding-bottom:3px;
 	border: 5px solid lightgray;
@@ -113,9 +114,63 @@ button {
 	top: -30px;
 	right: 100px;
 }
-
+ /*perforation border 1*/
 #perf {
+	overflow: hidden;
 	padding: 0;
 	float: left;
 	height: 5px;
+	z-index: 1;
+}
+/*entire gray area*/
+.gray {
+	background: #f4f4f4;
+	display: inline-block;
+}
+/*Pictues of only ties*/
+.tie_box {
+	background-color: #f4f4f4;
+	height: 190px;
+	margin: 0px;
+	width: 1366px;
+	/*margin-left: 15px;*/
+	/*margin-bottom: 250px;*/
+	/*padding-bottom: 245px;*/
+	float: left;
+
+}
+
+.ties {
+	background-color: #f4f4f4;
+	height: 150px;
+	margin: 0px;
+	margin-left: 35px;
+	margin-bottom: 250px;
+	float: left;
+}
+
+/*black tie image*/
+.black {
+	margin-left: 200px;
+}
+ /*striped tie image*/
+ .striped {
+ 	/*padding-right: 160px;*/
+ }
+
+/*text underneath the ties*/
+.tie_labels {
+	height: 200px;
+	overflow: hidden;
+	float: left;
+	vertical-align: 30px;
+}
+.tie_labels span {
+	margin: 0 29px;
+}
+
+/*label for the black tie*/
+
+#black_label {
+	margin-left: 275px;
 }
