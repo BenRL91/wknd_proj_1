@@ -96,6 +96,13 @@ div.cartsprite {
 	height: 12px;
 }
 
+div.cart .zero {
+	background-color: gray;
+	padding: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
 /*<perforated border*/
 div.perf_container {
 	border: none;
@@ -160,13 +167,59 @@ li.wkpk_items span {
 	clear: left;
 }
 
-}
-li .style {
+div.fb {
+	background: url('assets/sprite@2x.png') no-repeat -270px 0;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	float: left;
 	clear: left;
 }
 
-img.guy {
+div.pin {
+	background: url('assets/sprite@2x.png') no-repeat -270px -40px;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+div.twit {
+	background: url('assets/sprite@2x.png') no-repeat -270px -80px;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+
+li.wkpk_items input {
+	float: left;
+	clear: left;
+}
+
+li.wkpk_items button {
+	clear: left;
+}
+
+}
+li .style {
 	float: right;
+	clear: left;
+}
+
+span.style_guide {
+	float: right;
+}
+
+img.guy {
+	height: 100px;
+	float: right;
+	clear: right;
+}
+
+span.eighty {
+	float: right;
+	clear: right;
 }
 
 div.gray_box2 {
