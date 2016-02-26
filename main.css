@@ -1,199 +1,65 @@
-body {
-	font-family: 'Signika Negative', sans-serif;
-}
-/*Top of page*/
-.orange_banner {
-	color: white;
-	font-size: 16px;
-	font-weight: lighter;
-	background-color: #e87450;
-	padding: 5px;
-	padding-left: 100px;
-	padding-bottom: 6px;
-}
-
-/*Buttons for top of page*/
-button {
-	background-color: #e87450;
-	margin-left: 6px;
-	border: none;
-}
-
-.free {
-	background-color: #b95c3e;
-	font-size: 12px;
-	padding: 5px;
-	padding-right: 7px;
-	padding-left: 7px;
-	border-radius: 3px;
-	margin-right: 12px;
-}
-
-/*Skinny Ties Image division*/
-.skinny {
-	/*background-color: black;*/
-	color: darkgray;
-	position: relative;
-	overflow: hidden;
-	height: 143px;
-	/*margin-left: 120px;*/
-}
-
-/*Skinny Ties Image proper*/
-.skinny img{
-	height: 125px;
-	float: left;
-	padding-left: 120px;
-}
-
-.category_text {
-	/*border: 1px solid red;*/
-}
-.collection {
-	margin-left: 90px;
-}
-
-/*Cart box*/
-#cart {
-	padding: 8px;
-	padding-left:35px;
-	padding-right:35px;
-	border: 1px solid #454545 ;
-	border-radius: 2px;
-	font-size: 15px;
-	font-weight: normal;
-	margin-left: 150px;
-}
-
-.skinny span {
-	color: #454545;
-	font-size: 25px;
-	font-weight: lighter;
-	line-height: 135px;
-	margin-right: 20px;
-}
-
-/*Search box*/
-.search {
-	float: right;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.search input {
-	position: absolute;
-	top: 50px;
-	right: 120px;
-	font-size: 14px;
-	padding-top: 3px;
-	padding-bottom:3px;
-	border: 5px solid lightgray;
-	border-radius: 4px;
-}
-
-}
-/*Sign in and register */
-.sign_in {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-#sign {
-	color: gray;
-	font-size: 11px;
-	position: absolute;
-	top: -30px;
-	right: 160px;
-}
-
-#reg {
-	color: gray;
-	font-size: 11px;
-	position: absolute;
-	top: -30px;
-	right: 100px;
-}
- /*perforation border 1*/
-#perf {
-	overflow: hidden;
-	padding: 0;
-	float: left;
-	height: 5px;
-	z-index: 1;
-}
-/*entire gray area*/
-.gray {
-	background: #f4f4f4;
-	display: inline-block;
-}
-/*Pictues of only ties*/
-.tie_box {
-	/*background-color: #f4f4f4;*/
-	background-color: blue;
-	height: 170px;
-	margin: 0px;
-	width: 1366px;
-	/*margin-left: 15px;*/
-	/*margin-bottom: 250px;*/
-	/*padding-bottom: 245px;*/
-	float: left;
-
-}
-
-.ties {
-	background-color: #f4f4f4;
-	height: 150px;
-	margin: 0px;
-	margin-left: 35px;
-	margin-bottom: 250px;
-	float: left;
-}
-
-/*black tie image*/
-.black {
-	margin-left: 200px;
-}
- /*striped tie image*/
- .striped {
- 	/*padding-right: 160px;*/
- }
-
-/*text underneath the ties*/
-.tie_labels {
-	height: 200px;
-	overflow: hidden;
-	float: left;
-}
-.tie_labels span {
-	margin: 0 29px;
-	float: left;
-}
-
-/*label for the black tie*/
-
-#black_label {
-	margin-left: 220px;
-}
-
-/*Start dressing better text*/
-.start_box {
-	float:right;
-	margin-right: 400px
-}
-span.startdb {
-	font-size: 50px;
-}
 * {
 	border: 1px solid red;
 }
+body {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+}
+/*container for 1st section. The orange bar section*/
+div.block1 {
+	overflow: hidden;
+}
+/*container for the words*/
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+/*the words*/
+.orange_words li {
+	float: left;
+}
+div.skinny_ties_logo {
+	float: left;
+	display: inline-block;
+}
+div.skinny_ties_logo img {
+	float: left;
+}
+ul.categories {
+	float: left;
+}
+ul.categories li {
+	float: left;
+}
 
 
-
-
-
-
-
-/*Working on getting all of the words beneath the ties set correctly
-trying something new with the spans in the HTML (May not work) 
-and trying to get the large words oriented correctly as well*/
+div.signreg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	/*width: 700px;*/
+	/*float: right;*/
+	/*display: inline-block;*/
+}
+ul.srcontent {
+	float: right;
+}
+ul.srcontent li {
+	float: right;
+}
+div.cartsearchcontainer {
+	float: right;
+}
+div.cartsearch {
+	float: right;
+	display: inline-block;
+}
+div.cartsearch span input {
+	float: right;
+}
+div.cart {
+	display: inline-block;
+}
