@@ -60,7 +60,7 @@ div.skinny_ties_logo {
 
 div.skinny_ties_logo img {
 	margin-left: 100px;
-	height: 100px;
+	height: 130px;
 	float: left;
 }
 
@@ -197,15 +197,71 @@ div.gray_box {
 	background-color: #f4f4f4;
 }
 
+div.tie_box {
+	float: left;
+}
+
+div.tie_box img {
+	height: 200px;
+	margin-right: 20px;
+}
+img.black {
+	margin-left: 170px;
+}
+
+img.striped {
+	padding-right: 100px;
+}
+
 /*Tie Label Container*/
 }
 
-div.start_dress {
+div.tie_labels {
 	float: left;
 }
 
-div.startdress span {
-	float: left;
+div.tie_labels span {
+	color: #383838;
+	font-weight: bold;
+	margin-left: 66px;
+}
+
+#black_span {
+	margin-left: 200px;
+	margin-right: 10px;
+}
+
+#cotton_span {
+	margin-left: 53px;
+}
+
+#graphic_span {
+	margin-left: 49px;
+}
+
+#plaid_span {
+	margin-left: 67px;
+	margin-right: 20px
+}
+
+#striped_span {
+	margin-left: 80px;
+
+}
+
+div.start_dress {
+	/*float: left;*/
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+}
+
+div.start_dress span {
+	/*float: left;*/
+	font-size: 58px;
+	margin-left: 400px;
+	margin-top: 60px;
+
 }
 
 
