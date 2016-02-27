@@ -36,7 +36,7 @@ ul {
 
 /*the words*/
 ul.orange_words {
-	padding: 0;
+	padding: 3px;
 	margin: 0;
 	overflow: hidden;
 }
@@ -55,13 +55,15 @@ li.fs {
 	margin-left: 100px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	padding-top: 3px;
-	padding-left: 4px;
-	padding-right: 4px;
-	padding-bottom: 1px;
+	padding-top: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 3px;
 	border-radius: 3px;
 	background-color: #b95c3e;
 	color: white !important;
+	font-weight: lighter !important;
+	font-size: 12px;
 	/*the first child of each list item is designated as black near the bottom of the page*/
 }
 
@@ -78,12 +80,17 @@ div.skinny_ties_logo img {
 
 ul.categories {
 	font-family: "quicksand", sans-serif;
-	font-size: 21px;
+	font-size: 25px;
 	color: #686868;
 	float: left;
+	line-height: 100px;
+	margin: 0;
+	margin-left: 20px;
 }
 
 ul.categories li {
+	color: #686868;
+	font-weight: lighter;
 	padding-top: 16px;
 	margin-left: 22px;
 	float: left;
@@ -96,10 +103,10 @@ div.bowtie_section_labels {
 
 div.signreg {
 	position: absolute;
-	top: 32px;
+	top: 48px;
 	right: 122px;
 	color: #a0a0a0;
-	font-size: 12px;
+	font-size: 16px;
 	overflow: hidden;
 }
 
@@ -110,8 +117,8 @@ ul.srcontent {
 ul.srcontent li {
 	/*First-child list items being set to bold lower on page*/
 	color: #a0a0a0 !important;
-	font-size: 12px !important;
-	font-weight: lighter !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
 	float: right;
 	margin-right: 10px;
 }
@@ -121,6 +128,7 @@ div.cartsearchcontainer {
 }
 
 div.cartsearch {
+	margin-top: 18px;
 	padding-top: 30px;
 	margin-right: 130px;
 	float: right;
@@ -246,6 +254,7 @@ div.tie_box img {
 	margin-right: 20px;
 }
 img.black {
+
 	margin-left: 170px;
 }
 
@@ -268,8 +277,7 @@ ul.tie_labels li {
 	position: absolute;
 	color: #383838;
 	font-family: "quicksand", sans-serif;
-	font-w375ht:
-	left: ; bold;
+	font-weight: bold;
 	z-index: 2;
 }
 
