@@ -10,6 +10,15 @@ body {
 	margin: 0;
 }
 
+div.same_sizer {
+	min-height: 2000px ;
+	min-width: 1330px;
+	max-width: 1330px;
+	position: static;
+	overflow: scroll;
+
+}
+
 /*container for 1st section. The orange bar section*/
 div.block1 {
 	background-color: #e87450;
@@ -542,13 +551,13 @@ div.email {
 }
 
 li .style {
-	float: right;
-	clear: left;
+	float: left;
+	/*clear: left;*/
 }
 
 span.style_guide {
 	margin-top: 23px;
-	margin-right: 345px;
+	/*margin-right: 345px;*/
 
 	font-size: 18px;
 	font-weight: bolder;
@@ -557,13 +566,13 @@ span.style_guide {
 
 img.guy {
 	height: 140px;
-	margin-right: 200px;
-	float: right;
-	clear: right;
+	/*margin-right: 200px;*/
+	float: left;
+	clear: left;
 }
 
 span.eighty {
-	margin-right: 188px;
+	/*margin-right: 188px;*/
 	font-size: 14px;
 	float: right;
 	clear: right;
