@@ -12,8 +12,7 @@ body {
 
 div.same_sizer {
 	min-height: 2000px ;
-	min-width: 100%;
-	/*max-width: 100%;*/
+	max-width: 2200px;
 	/*min-width: 1330px;*/
 	/*max-width: 1330px;*/
 	position: static;
@@ -610,8 +609,9 @@ div.gray_box2 {
 	background-color: #f4f4f4;
 	/*padding-left: 40px;*/
 	float: left;
-	max-width: 1366px;
-	min-width: 1366px;
+	/*max-width: 1366px;*/
+	/*min-width: 1366px;*/
+	min-width: 100%;
 }
 
 ul.shopby {
