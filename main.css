@@ -53,9 +53,9 @@ li.fs {
 	background-color: #b95c3e;
 }
 
-div.skinny_ties_logo {
+div.skinny_ties_logo { 
 	float: left;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 div.skinny_ties_logo img {
@@ -181,8 +181,15 @@ div.totalsearch {
 
 /*<perforated border*/
 div.perf_container {
-	border: none;
+	width: 100%;
+	height: 5px;
+	background-image: url(assets/perforated-bottom@2x.png); 
+	background-repeat: repeat-x;
+	background-size: 44px 5px;
+	overflow: hidden;
 	float: left;
+	position: relative;
+	z-index: 1;
 }
 
 img.perf {
@@ -198,7 +205,9 @@ div.gray_box {
 }
 
 div.tie_box {
+	position: absolute;
 	float: left;
+	z-index: 0;
 }
 
 div.tie_box img {
@@ -274,6 +283,7 @@ div.bowtie_section img {
 	margin: 12px;
 	height: 200px;
 	float: left;
+	margin-top: 55px;
 }
 p {
 	float: left;
