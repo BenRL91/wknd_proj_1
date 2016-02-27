@@ -12,8 +12,10 @@ body {
 
 div.same_sizer {
 	min-height: 2000px ;
-	min-width: 1330px;
-	max-width: 1330px;
+	min-width: 100%;
+	/*max-width: 100%;*/
+	/*min-width: 1330px;*/
+	/*max-width: 1330px;*/
 	position: static;
 	overflow: scroll;
 
@@ -43,7 +45,7 @@ ul.orange_words {
 	margin-left: 16px;
 	padding-top: 9px;
 	line-height: 18px;
-	font-family: 'Khula', sans-serif;
+	font-family: 'spinnaker', sans-serif;
 	font-size: 13px;
 	font-weight: lighter;
 	color: white;
@@ -57,9 +59,10 @@ li.fs {
 	padding-left: 4px;
 	padding-right: 4px;
 	padding-bottom: 1px;
-	font-size: 12px;
 	border-radius: 3px;
 	background-color: #b95c3e;
+	color: white !important;
+	/*the first child of each list item is designated as black near the bottom of the page*/
 }
 
 div.skinny_ties_logo { 
@@ -74,7 +77,7 @@ div.skinny_ties_logo img {
 }
 
 ul.categories {
-	font-family: quicksand, sans-serif;
+	font-family: "quicksand", sans-serif;
 	font-size: 21px;
 	color: #686868;
 	float: left;
@@ -242,7 +245,7 @@ img.black {
 }
 
 img.striped {
-	padding-right: 100px;
+	/*padding-right: 100px;*/
 }
 
 /*Tie Label Container*/
@@ -259,7 +262,7 @@ ul.tie_labels li {
 	float: left;
 	position: absolute;
 	color: #383838;
-	font-family: quicksand, sans-serif;
+	font-family: "quicksand", sans-serif;
 	font-w375ht:
 	left: ; bold;
 	z-index: 2;
@@ -405,7 +408,7 @@ div.bars {
 p.origin_p {
 	float: left;
 	clear: left;
-	font-family: khula, sans-serif;
+	font-family: "khula", sans-serif;
 	font-size: 38px;
 	font-weight: lighter;
 	text-align: center;
@@ -417,7 +420,7 @@ p.origin_p {
 span.view {
 	float: left;
 	clear: left;
-	font-family: spinnaker, sans-serif;
+	font-family: "spinnaker", sans-serif;
 	font-size: 18px;
 	color: #53a4f7;
 	margin-left: 570px;
@@ -516,6 +519,10 @@ span.colored_span {
 	color: #53a4f7;
 }
 
+span.essentials {
+	margin: 0 !important;
+}
+
 span.tightly {
 	font-size: 14px;
 }
@@ -564,7 +571,7 @@ span.style_guide {
 	float: right;
 }
 
-img.guy {
+#guy {
 	height: 140px;
 	/*margin-right: 200px;*/
 	float: left;
@@ -581,8 +588,10 @@ span.eighty {
 
 div.gray_box2 {
 	background-color: #f4f4f4;
-	padding-left: 40px;
+	/*padding-left: 40px;*/
 	float: left;
+	max-width: 1366px;
+	min-width: 1366px;
 }
 
 ul.shopby {
@@ -593,6 +602,7 @@ ul.shopby {
 }
 
 .shopby li {
+	height: 19px;
 	color: #949494;
 }
 
@@ -602,21 +612,73 @@ li:first-child {
 }
 
 div.contact {
-	margin-left: 600px;
-	float: right;
-	clear:right;
+	color: white;
+	float: left;
+	/*clear:;*/
+	background-color: #a4afbe;
+	border: 2px solid #9aa3b0;
+	border-radius: 4px;
+	margin-left: 300px;
+	margin-right: 20px;
+	margin-top: 32px;
+	padding-left: 15px;
+	padding-top: 10px;
+	position: relative;
 }
 
+span.werehere {
+	float: left;
+	clear: left;
+	font-size: 26px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-right: 96px;
+}
+
+span.emailhelp {
+	float: left;
+	clear: left;
+	font-weight: lighter;
+	font-style: italic;
+	margin-top: 8px;
+}
+
+span.number {
+	float: left;
+	clear: left;
+	font-weight: lighter;
+	font-size: 21px;
+	font-stretch: 3px;
+	padding-bottom: 10px;
+}
 div.contact button {
-	float: right;
+	background-color: #53a5f7;
+	border: 1px solid #4994df;
+	border-radius: 5px;
+	position: absolute;
+	top: 55%;
+	right: 15px;
+	/*clear: right;*/
+	/*margin-left: 50px;*/
+	/*margin-bottom: 20px;*/
+	/*margin-right: 20px;*/
+	font-size: 20px;
+	font-weight: lighter;
+	/*padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;*/
 }
 
 p.copywrite {
+	box-sizing: border-box;
 	padding-top: 20px;
 	padding-bottom: 30px;
-	padding-left: 80px;
+	padding-left: 60px;
+	padding-right: 60px;
 	font-size: 12px;
 	color: #949494;
 	background-color: #f4f4f4;
 	clear: left;
+	min-width: 100%;
 }
