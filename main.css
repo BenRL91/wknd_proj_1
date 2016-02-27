@@ -462,27 +462,99 @@ div.twit {
 	float: left;
 }
 
+/*li.wkpk_items {
+	margin-left: 30px;
+}*/
+
+li.wkpk_items span {
+	margin-left: 30px;
+}
+
+li.wkpk_items img {
+	margin-left: 30px;
+	height: 150px;
+}
+
 li.wkpk_items input {
 	float: left;
 	clear: left;
 }
 
 li.wkpk_items button {
+	margin-left: 30px;
+	color: white;
+	font-size: 13px;
+	background-color: #53a4f7;
+	height: 27px;
+	border: none;
+	border-radius: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 0; 
+	float: left;
 	clear: left;
 }
 
+span.wp_tops {
+	margin-top: 23px;
+	font-size: 18px;
+	font-weight: bolder;
 }
+
+span.colored_span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #53a4f7;
+}
+
+span.tightly {
+	font-size: 14px;
+}
+
+div.fb {
+	margin-left: 34px;
+	margin-top: 10px;
+}
+
+div.pin {
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+div.twit {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+span.our_letter {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+div.email {
+	border: 4px solid #f3f3f3;
+	border-radius: 4px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	float: left;
+	clear: left;
+}
+
 li .style {
 	float: right;
 	clear: left;
 }
 
 span.style_guide {
+	margin-top: 23px;
+	font-size: 18px;
+	font-weight: bolder;
 	float: right;
 }
 
 img.guy {
-	height: 100px;
+	height: 140px;
 	float: right;
 	clear: right;
 }
