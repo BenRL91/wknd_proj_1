@@ -23,6 +23,7 @@ div.same_sizer {
 
 /*container for 1st section. The orange bar section*/
 div.block1 {
+	max-width: 100%;
 	background-color: #e87450;
 	overflow: hidden;
 }
@@ -68,6 +69,7 @@ li.fs {
 }
 
 div.skinny_ties_logo { 
+	max-width: 1366px;
 	float: left;
 	/*display: inline-block;*/
 }
@@ -453,6 +455,11 @@ div.xborder {
 }
 
 /*weekly pick section*/
+
+ul.weekly_pick_section {
+	overflow: hidden;
+	max-width: 100%;
+}
 li.wkpk_items {
 	float: left;
 }
@@ -678,10 +685,10 @@ div.contact button {
 	/*margin-right: 20px;*/
 	font-size: 20px;
 	font-weight: lighter;
-	/*padding-top: 4px;
+	padding-top: 4px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 0px;*/
+	padding-bottom: 0px;
 }
 
 p.copywrite {
