@@ -151,7 +151,24 @@ div.cartsprite {
 	height: 14px;
 }
 
+span.cart_span {
+	float: left;
+	margin-top: 2px;
+}
+
+div.triangle {
+	float: left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 4px 4px 4px 0;
+	border-color: transparent #c8c8c8 transparent transparent;
+	margin-top: 6px;
+	margin-left: 3px;
+}
+
 div.cart .zero {
+	float: right; 
 	border-radius: 5px;
 	padding-top: 3px;
 	padding-right: 7px;
@@ -159,6 +176,7 @@ div.cart .zero {
 	color: white;
 	background-color: #c8c8c8;
 	padding-bottom: 0;
+	margin-left: 0;
 }
 
 input.searchbox {
@@ -192,15 +210,11 @@ div.perf_container {
 	z-index: 1;
 }
 
-img.perf {
-	border: none;
-	height: 5px;
-	float: left;
-}
-
 /*gray_box division*/
 div.gray_box {
 	float: left;
+	width: 100%;
+	height: 400px;
 	background-color: #f4f4f4;
 }
 
@@ -225,44 +239,88 @@ img.striped {
 /*Tie Label Container*/
 }
 
-div.tie_labels {
+ul.tie_labels {
 	float: left;
+	position: absolute;
+	top: 0;
+	z-index: 2;
 }
 
-div.tie_labels span {
+ul.tie_labels li {
+	float: left;
+	position: absolute;
 	color: #383838;
-	font-weight: bold;
-	margin-left: 66px;
+	font-family: quicksand, sans-serif;
+	font-w375ht:
+	left: ; bold;
+	z-index: 2;
 }
 
-#black_span {
-	margin-left: 200px;
-	margin-right: 10px;
+
+#black_li {
+	position: absolute;
+	top: 375px;
+	left: 200px;
 }
 
-#cotton_span {
-	margin-left: 53px;
+#blue_li {
+	position: absolute;
+	top: 375px;
+	left: 324px;
+
 }
 
-#graphic_span {
-	margin-left: 49px;
+#collegiate_li {
+	position: absolute;
+	top: 375px;
+	left: 424px;
+
 }
 
-#plaid_span {
-	margin-left: 67px;
-	margin-right: 20px
+#cotton_li {
+	position: absolute;
+	top: 375px;
+	left: 555px;
 }
 
-#striped_span {
-	margin-left: 80px;
+#favorites_li{
+	position: absolute;
+	top: 375px;
+	left: 667px;
+
+}
+
+#graphic_li {
+	position: absolute;
+	top: 375px;
+	left: 796px;
+}
+
+#plaid_li {
+	position: absolute;
+	top: 375px;
+	left: 927px;
+}
+
+#silk_li {
+	position: absolute;
+	top: 375px;
+	left: 1053px;
+
+}
+
+#striped_li {
+	position: absolute;
+	top: 375px;
+	left: 1158px;
 
 }
 
 div.start_dress {
 	/*float: left;*/
-	padding-top: 50px;
-	padding-bottom: 50px; 
-
+	padding-top: 280px;
+	padding-bottom: 50px;
+	background-color: #f4f4f4;
 }
 
 div.start_dress span {
@@ -273,20 +331,90 @@ div.start_dress span {
 
 }
 
-
-/*Bowtie  level images*/
-#bowtiesimg {
-	margin-left: 100px;
+div.bowtie {
+	margin-top: 52px;
+	margin-left: 115px;
+	padding-bottom: 20px;
+	float: left;
+	background-image: url(assets/bow-ties@1.5x.jpg);
+	background-size: 100%;
+	min-height: 200px; 
+	width: 370px;
 }
 
-div.bowtie_section img {
-	margin: 12px;
-	height: 200px;
-	float: left;
-	margin-top: 55px;
+.bowtie span {
+	font-weight: bolder;
+	font-size: 25px;
+	padding-right: 20px; 
+	padding-top: 20px;
+	float: right;
 }
-p {
+
+div.pocket {
+	margin-top: 52px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
 	float: left;
+	background-image: url(assets/pocket-squares@1.5x.jpg);
+	background-size: 100%;
+	min-height: 200px; 
+	width: 370px;
+}
+
+.pocket span {
+	font-weight: bolder;
+	font-size: 25px;
+	padding-right: 20px; 
+	padding-top: 20px;
+	padding-bottom: 0;
+	float: right;
+	clear: right;
+}
+
+span.squares {
+	padding-top: 0;
+}
+
+div.bars {
+	margin-top: 52px;
+	padding-bottom: 20px;
+	float: left;
+	background-image: url(assets/tie-bars@1.5x.jpg);
+	background-size: 100%;
+	min-height: 200px; 
+	width: 370px;
+}
+.bars span {
+	font-weight: bolder;
+	font-size: 25px;
+	padding-right: 20px; 
+	padding-top: 20px;
+	float: right;
+}
+
+p.origin_p {
+	float: left;
+	clear: left;
+	font-family: khula, sans-serif;
+	font-size: 38px;
+	font-weight: lighter;
+	text-align: center;
+	margin-left: 250px;
+	margin-top: 90px;
+	margin-bottom: 0;
+}
+
+span.view {
+	float: left;
+	clear: left;
+	font-family: spinnaker, sans-serif;
+	font-size: 18px;
+	color: #53a4f7;
+	margin-left: 570px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 80px;
 }
 div.xborder {
 	/*float: left;*/
