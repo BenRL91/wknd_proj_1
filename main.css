@@ -548,6 +548,8 @@ li .style {
 
 span.style_guide {
 	margin-top: 23px;
+	margin-right: 345px;
+
 	font-size: 18px;
 	font-weight: bolder;
 	float: right;
@@ -555,26 +557,45 @@ span.style_guide {
 
 img.guy {
 	height: 140px;
+	margin-right: 200px;
 	float: right;
 	clear: right;
 }
 
 span.eighty {
+	margin-right: 188px;
+	font-size: 14px;
 	float: right;
 	clear: right;
+	margin-bottom: 60px;
 }
 
 div.gray_box2 {
 	background-color: #f4f4f4;
+	padding-left: 40px;
 	float: left;
 }
 
 ul.shopby {
+	padding-top: 15px;
+	/*margin-left: 40px;*/
+	font-size: 15px;
 	float: left;
 }
 
+.shopby li {
+	color: #949494;
+}
+
+li:first-child {
+	color: black;
+	font-weight: bold;
+}
+
 div.contact {
+	margin-left: 600px;
 	float: right;
+	clear:right;
 }
 
 div.contact button {
@@ -582,5 +603,11 @@ div.contact button {
 }
 
 p.copywrite {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	font-size: 12px;
+	color: #949494;
+	background-color: #f4f4f4;
 	clear: left;
 }
