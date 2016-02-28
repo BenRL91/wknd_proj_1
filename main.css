@@ -36,7 +36,7 @@ ul {
 
 /*the words*/
 ul.orange_words {
-	padding: 3px;
+	padding: 2px 3px 0 3px;
 	margin: 0;
 	overflow: hidden;
 }
@@ -46,7 +46,7 @@ ul.orange_words {
 	padding-top: 9px;
 	line-height: 18px;
 	font-family: 'spinnaker', sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: lighter;
 	color: white;
 	float: left;
@@ -74,8 +74,9 @@ div.skinny_ties_logo {
 }
 
 div.skinny_ties_logo img {
-	margin-left: 100px;
-	height: 130px;
+	padding: 0 0 0 0;
+	margin-left: 108px;
+	height: 120px;
 	float: left;
 }
 
@@ -92,8 +93,8 @@ ul.categories {
 ul.categories li {
 	color: #686868;
 	font-weight: lighter;
-	padding-top: 16px;
-	margin-left: 22px;
+	padding: 10px 0 0 0;
+	margin: 0px 1px 0px 12px;
 	float: left;
 }
 
@@ -104,8 +105,8 @@ div.bowtie_section_labels {
 
 div.signreg {
 	position: absolute;
-	top: 48px;
-	right: 122px;
+	top: 38px;
+	right: 190px;
 	color: #a0a0a0;
 	font-size: 16px;
 	overflow: hidden;
@@ -129,9 +130,8 @@ div.cartsearchcontainer {
 }
 
 div.cartsearch {
-	margin-top: 18px;
-	padding-top: 30px;
-	margin-right: 130px;
+	margin: 18px 185px 0 0;
+	padding-top: 22px;
 	float: right;
 	display: inline-block;
 }
@@ -139,10 +139,10 @@ div.mag {
 	/*border: 1px solid #7a7a7a;*/
 	margin-top: 4px;
 	float: left;
-	background: url('assets/sprite@2x.png') no-repeat -17px -15px;
-	background-size: 440px 220px;
+	background: url('assets/sprite@2x.png') no-repeat -14px -14px;
+	background-size: 400px 200px;
 	width: 18px;
-	height: 18px;
+	height: 16px;
 }
 
 div.cartsearch span input {
@@ -240,7 +240,7 @@ div.perf_container {
 div.gray_box {
 	float: left;
 	width: 100%;
-	height: 400px;
+	height: 340px;
 	background-color: #f4f4f4;
 }
 
@@ -251,16 +251,18 @@ div.tie_box {
 }
 
 div.tie_box img {
-	height: 200px;
-	margin-right: 20px;
+	height: 152px;
+	margin: 0 13px 0 13px;
+	
 }
+
 img.black {
 
-	margin-left: 170px;
+	padding: 0 0 0 171px;
 }
 
 img.striped {
-	/*padding-right: 100px;*/
+
 }
 
 /*Tie Label Container*/
@@ -285,137 +287,141 @@ ul.tie_labels li {
 
 #black_li {
 	position: absolute;
-	top: 375px;
+	top: 325px;
 	left: 200px;
 }
 
 #blue_li {
 	position: absolute;
-	top: 375px;
-	left: 324px;
+	top: 325px;
+	left: 306px;
 
 }
 
 #collegiate_li {
 	position: absolute;
-	top: 375px;
-	left: 424px;
+	top: 325px;
+	left: 399px;
 
 }
 
 #cotton_li {
 	position: absolute;
-	top: 375px;
-	left: 555px;
+	top: 325px;
+	left: 508px;
 }
 
 #favorites_li{
 	position: absolute;
-	top: 375px;
-	left: 667px;
+	top: 325px;
+	left: 607px;
 
 }
 
 #graphic_li {
 	position: absolute;
-	top: 375px;
-	left: 796px;
+	top: 325px;
+	left: 716px;
 }
 
 #plaid_li {
 	position: absolute;
-	top: 375px;
-	left: 927px;
+	top: 325px;
+	left: 827px;
 }
 
 #silk_li {
 	position: absolute;
-	top: 375px;
-	left: 1053px;
+	top: 325px;
+	left: 937px;
 
 }
 
 #striped_li {
 	position: absolute;
-	top: 375px;
-	left: 1158px;
+	top: 325px;
+	left: 1025px;
 
 }
 
 div.start_dress {
 	/*float: left;*/
-	padding-top: 280px;
-	padding-bottom: 50px;
+	padding-top: 225px;
+	padding-bottom: 45px;
 	background-color: #f4f4f4;
 }
 
 div.start_dress span {
 	/*float: left;*/
 	font-size: 58px;
-	margin-left: 400px;
-	margin-top: 60px;
+	margin: 30px 0px 0px 380px;
 
 }
 
 div.bowtie {
-	margin-top: 52px;
-	margin-left: 115px;
+	margin-top: 50px;
+	margin-left: 110px;
 	padding-bottom: 20px;
 	float: left;
 	background-image: url(assets/bow-ties@1.5x.jpg);
+	background-repeat: no-repeat;
 	background-size: 100%;
-	min-height: 200px; 
-	width: 370px;
+	min-height: 230px; 
+	width: 340px;
 }
 
 .bowtie span {
 	font-weight: bolder;
 	font-size: 25px;
-	padding-right: 20px; 
-	padding-top: 20px;
+	padding-right: 18px; 
+	padding-top: 16px;
 	float: right;
 }
 
 div.pocket {
-	margin-top: 52px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 50px 20px 0px 20px;
 	padding-bottom: 20px;
 	float: left;
 	background-image: url(assets/pocket-squares@1.5x.jpg);
+	background-repeat: no-repeat;
 	background-size: 100%;
-	min-height: 200px; 
-	width: 370px;
+	min-height: 230px; 
+	width: 340px;
+	position: relative;
 }
 
 .pocket span {
 	font-weight: bolder;
 	font-size: 25px;
-	padding-right: 20px; 
-	padding-top: 20px;
-	padding-bottom: 0;
+	padding-right: 18px; 
+	padding-top: 15px;
+	padding-bottom: 4;
 	float: right;
 	clear: right;
 }
 
 span.squares {
-	padding-top: 0;
+	position: absolute;
+	top: 29px;
+	right: 0;
+
 }
 
 div.bars {
-	margin-top: 52px;
+	margin-top: 50px;
 	padding-bottom: 20px;
 	float: left;
 	background-image: url(assets/tie-bars@1.5x.jpg);
+	background-repeat: no-repeat;
 	background-size: 100%;
-	min-height: 200px; 
-	width: 370px;
+	min-height: 230px; 
+	width: 340px;
 }
 .bars span {
 	font-weight: bolder;
 	font-size: 25px;
-	padding-right: 20px; 
-	padding-top: 20px;
+	padding-right: 17px; 
+	padding-top: 15px;
 	float: right;
 }
 
@@ -426,9 +432,7 @@ p.origin_p {
 	font-size: 38px;
 	font-weight: lighter;
 	text-align: center;
-	margin-left: 250px;
-	margin-top: 90px;
-	margin-bottom: 0;
+	margin: 28px 0 0 250px;
 }
 
 span.view {
@@ -437,10 +441,8 @@ span.view {
 	font-family: "spinnaker", sans-serif;
 	font-size: 18px;
 	color: #53a4f7;
-	margin-left: 570px;
 	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 80px;
+	margin: 5px 0px 66px 570px;
 }
 div.xborder {
 	/*float: left;*/
@@ -458,6 +460,7 @@ div.xborder {
 ul.weekly_pick_section {
 	overflow: hidden;
 	max-width: 100%;
+	padding: 0px 0px 0px 75px;
 }
 li.wkpk_items {
 	float: left;
@@ -503,7 +506,7 @@ li.wkpk_items span {
 
 li.wkpk_items img {
 	margin-left: 30px;
-	height: 150px;
+	height: 130px;
 }
 
 li.wkpk_items input {
@@ -591,7 +594,7 @@ span.style_guide {
 }
 
 #guy {
-	height: 140px;
+	height: 139px;
 	/*margin-right: 200px;*/
 	float: left;
 	clear: left;
@@ -602,7 +605,7 @@ span.eighty {
 	font-size: 14px;
 	float: right;
 	clear: right;
-	margin-bottom: 60px;
+	margin-bottom: 27px;
 }
 
 div.gray_box2 {
@@ -615,11 +618,20 @@ div.gray_box2 {
 }
 
 ul.shopby {
-	padding-top: 15px;
+	padding-top: 12px;
 	/*margin-left: 40px;*/
 	font-size: 15px;
 	float: left;
-	padding-left: 60px;
+	padding-left: 50px;
+}
+
+#shopby1 {
+	padding-top: 12px;
+	/*margin-left: 40px;*/
+	font-size: 15px;
+	float: left;
+	padding-left: 110px;
+
 }
 
 .shopby li {
@@ -639,11 +651,8 @@ div.contact {
 	background-color: #a4afbe;
 	border: 1px solid #9aa3b0;
 	border-radius: 4px;
-	margin-left: 300px;
-	margin-right: 20px;
-	margin-top: 32px;
-	padding-left: 15px;
-	padding-top: 10px;
+	margin: 34px 20px 0px 269px;
+	padding: 10px 12px 0px 15px;
 	position: relative;
 }
 
@@ -682,7 +691,7 @@ div.contact button {
 	/*clear: right;*/
 	/*margin-left: 50px;*/
 	/*margin-bottom: 20px;*/
-	/*margin-right: 20px;*/
+	/*margin-right: 6px;*/
 	font-size: 20px;
 	font-weight: lighter;
 	padding-top: 4px;
